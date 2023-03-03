@@ -1,0 +1,69 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	{% comment %} <link rel="shortcut icon" href="{% static "images/favicon.png" %} "> {% endcomment %}
+	<link rel="shortcut icon" href="{'favicon.png'} ">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap"
+     rel="stylesheet">
+
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}  ">
+	<link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css' %} ">
+	<link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %} ">
+	<link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/daterangepicker.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/aos.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/style.css' %} ">
+
+	<title>Tour Free Bootstrap Template for Travel Agency by Untree.co</title>
+    {% block style %}  {% endblock style %}
+<style> 
+	#bg1{
+		background-image: url("{% static 'images/hero-slider-1.jpg' %}");
+	}
+</style>
+ 
+</head>
+<body>
+
+    {% block content %} 
+    
+    
+    {% endblock content %}
+
+</body>
+    
+
+    
+	<script src=" {% static 'js/jquery-3.4.1.min.js' %} "></script>
+	<script src=" {% static 'js/popper.min.js' %} "></script>
+	<script src=" {% static 'js/bootstrap.min.js' %} "></script>
+	<script src=" {% static 'js/owl.carousel.min.js' %} "></script>
+	<script src=" {% static 'js/jquery.animateNumber.min.js' %} "></script>
+	<script src=" {% static 'js/jquery.waypoints.min.js' %} "></script>
+	<script src=" {% static 'js/jquery.fancybox.min.js' %} "></script>
+	<script src=" {% static 'js/aos.js' %} "></script>
+	<script src=" {% static 'js/moment.min.js' %} "></script>
+	<script src=" {% static 'js/daterangepicker.js' %} "></script>
+
+	<script src=" {% static 'js/typed.js' %} "></script>
+
+    
+	<script src=" {% static 'js/custom.js' %} "></script>
+
+    {% block script %}  
+    
+    {% endblock script %}
+
+</html>
